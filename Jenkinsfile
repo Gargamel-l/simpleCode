@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Установите нужные инструменты для сборки, если они еще не установлены
-                sh 'g++ -o HelloWorld simpleCode/main.cpp'
+                sh 'g++ -o HelloWorld simpleCode/simpleCode.cpp'
             }
         }
     }
